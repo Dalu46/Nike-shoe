@@ -1,0 +1,274 @@
+body {
+    padding: 0.1px 12px 0 12px;
+    background-color: #f3ada324;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.second-nav {
+    display: none;
+}
+
+.product {
+    display: none;
+}
+
+.container1 {
+    /* padding: 14px 14px 0 14px; */
+    /* margin-top: 10px 14px 0 14px; */
+    width: 100%;
+}
+
+.shoe {
+    margin-top: 130px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 20px;
+}
+
+.first-nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0 25px 10px;
+    background-color: white;
+    z-index: 1;
+    margin-left: -12px;
+}
+
+.icons {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.main-div {
+    margin-top: 80px;
+}
+
+.red-shoe {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    transform: rotate(-22deg);
+    background-color: red;
+}
+
+.main-shoe {
+    position: absolute;
+    width: 355px;
+    right: -5px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.three-shoes {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 45px;
+}
+
+.small-shoe {
+    width: 65px; 
+    margin: 6px 0 0 12px;
+}
+
+.small-shoe-main {
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 5px;
+    background: white;
+    border-radius: 6px;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.second-div {
+    margin-top: 40px;
+}
+
+.price {
+    color: red;
+}
+
+/* .three {
+    width: 50px;
+    transform: scale(-1) rotate(32deg);
+}  */
+
+.paragraph {
+    line-height: 20px;
+    margin-top: 17px;
+    width: 75%;
+}
+
+.numbers {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-span {
+    padding: 5px 10px;
+    border-radius: 6px;
+    /* height: 10px; */
+}
+
+.number-span:hover {
+    background: pink;
+    /* width: 35px; */
+   
+}
+
+.add {
+    width: 70%;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 821px) {
+
+    /* body {
+        background: blue;
+    } */
+
+    .first-nav {
+        display: none;
+    }
+
+    .second-nav {
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        padding: 25px 0 25px 10px;
+        position: fixed;
+        margin-left: -12px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .profile {
+        display: flex;
+        margin-right: 24px;
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    .profile-item {
+        width: 80px;
+        text-align: center;
+        height: 180%;
+        margin-top: -23px;
+        padding: 22px 0 0 1px;
+    }
+
+    .profile-item:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .nike-logo {
+        width: 50px;
+        height: 20px;
+        margin-right: 76px;
+    }
+
+    .profile-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .desktop-nav {
+        display: flex;
+        width: 29%;
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    .nike-text {
+        letter-spacing: 5px;
+        font-size: 38px;
+    }
+
+    .main-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    .second-div {
+        margin: 150px 0 0 25px;
+        width: 50%;
+    }
+
+    .shoe {
+        width: 54%;
+    }
+
+    .paragraph {
+        width: 92%;
+    }
+
+    .add {
+        margin: 0;
+        height: 65px;
+        width: 50%;
+    }
+
+    .add:hover {
+        background: rgb(231, 39, 39);
+    }
+
+    .product-btn {
+        position: relative;
+        height: 159px;
+        margin-top: 55px;
+    }
+
+    .product {
+        display: inline;
+        position: absolute;
+        left: -37px;
+        top: 60px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        border: none;
+        background: rgb(255, 61, 61);
+    }
+
+    .long-arrow {
+        width: 50px;
+        transform: rotate(-90deg);
+        margin-top: 16px;
+        margin-left: 5px;
+    }
+
+    .details {
+        text-align: center;
+        margin-top: 33px;
+        margin-left: 30%;
+    } 
+}
